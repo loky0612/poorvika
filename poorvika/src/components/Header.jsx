@@ -16,7 +16,7 @@ const Header = () => {
             </div>
             <div className='nav'>
                 <ul>
-                    <li>Delivery</li>
+                    <li className='text text-yellow-800'>Delivery</li>
                     <li>Locate</li>
                     <li>Items</li>
                     <li>My account</li>
