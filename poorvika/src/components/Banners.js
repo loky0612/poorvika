@@ -29,7 +29,7 @@ const Banners = () => {
     <div className='slider'>
         <SimpleImageSlider
         width="100%"
-        height="50%"
+        height="60%"
         images={images}
         showBullets={true}
         showNavs={true}
