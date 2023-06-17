@@ -1,8 +1,20 @@
-
-.header{
+.Header{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+.Header{
+    background-color: #f35b23;
+}
+.search{
+    width: 35rem;
+}
+.search i{
+    position: absolute;
+}
+.icon{
+    padding: 10px;
+    min-width: 40px;
 }
 .flex{
     display: flex;
@@ -15,7 +27,34 @@
     height: 8vh;
     width: 100%;
     position: sticky;
+    background-color: #f35b23;
+}
+.ho{
     background-color: white;
+    width:60%;
+    justify-content: center;
+
+}
+.con{
+    width: 100%;
+    display: flex;
+    top: 600px;
+    position: absolute;
+    justify-content: center;
+
+}
+.bb{
+    position: absolute;
+    top: 600px;
+}
+.flash{
+    
+    position: absolute;
+    top: 540px;
+}
+.flash h2{
+    font-size: 25px;
+    font-weight: 500;
 }
 .container .logo img{
     max-height: 70px;
@@ -58,4 +97,5 @@
 }
 .slider{
     padding-top: 6px;
+    display: absolute;
 }

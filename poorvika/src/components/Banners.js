@@ -32,10 +32,10 @@ const Banners = () => {
         height="60%"
         images={images}
         showBullets={true}
-        showNavs={true}
+        showNavs={true} 
         autoPlay/>
     </div>
   )
 }
 
-export default Banners
+export default Banners;
